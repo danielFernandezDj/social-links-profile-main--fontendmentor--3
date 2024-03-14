@@ -37,42 +37,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
-
-I learn how to separate an image from there original control and attach that to the screen without move the image
-out of the section control.
-
-This is the code I use to archive that:
-
-```html
-<body>
-  <section id="main-container">
-    <div><a href="https://www.linkedin.com/feed/" target="_blank">
-        <img src="./assets/images/image-omelette.jpeg" alt="Banner Image">
-      </a>
-    </div>
-  </section>
-```
-```css
-@media screen and (max-width: 375px) {
-    #main-container {
-        margin-bottom: 0;
-        padding: 30px;
-        max-width: none;
-        border-radius: 0;
-        padding: 25px;
-    }
-
-    img {
-        width: 100%;
-        border-radius: 0;
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
-}
-```
-
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ## Author
