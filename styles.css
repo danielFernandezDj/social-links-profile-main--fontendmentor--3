@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+/* %%%%%%%%%%%% Big Screen %%%%%%%%%%%% */
+@media  (min-width: 600px) {
+    main {
+        /* border: 3px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #141414;
+    }
+
+    #main-section {
+        /* border: 3px solid rgba(103, 103, 255, 0.574); */
+        color: rgb(242, 242, 242);
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: center;
+        text-align: center;
+        margin: 20px;
+        padding: 25px;
+        border-radius: 15px;
+        width: 90%;
+        max-height: 98%;
+        background-color: #1f1f1f;
+    }
+
+        /* ••••••••• Part 1 ••••••••• */
+        #main-section img {
+            border-radius: 50%;
+            width: 35%;
+            margin: 2px auto 20px;
+        }
+    
+        #main-section h1 {
+            margin: 12px 0;
+            font-size: 28px;
+        }
+    
+        #main-section h4 {
+            color: #defc82;
+            margin-bottom: 20px;
+        }
+    
+        #main-section p {
+            margin: 10px;
+            margin-bottom: 20px;
+            color: rgb(216, 216, 216);
+        }
+    
+        /* ••••••••• Part 2 ••••••••• */
+        button {
+            background-color: #333333;
+            color: rgb(242, 242, 242);
+            border: none;
+            width: 100%;
+            height: 50px;
+            margin: 8px 0;
+            border-radius: 10px;
+        }
+    
+        .attribution {
+            display: none;
+        }
+}
+
+/* %%%%%%%%%%%%%% Mobile %%%%%%%%%%%%%% */
+@media (max-width: 600px) {
+    main {
+        /* border: 3px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #141414;
+    }
+
+    #main-section {
+        /* border: 3px solid rgba(103, 103, 255, 0.574); */
+        color: rgb(242, 242, 242);
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: center;
+        text-align: center;
+        margin: 20px;
+        padding: 25px;
+        border-radius: 15px;
+        width: 90%;
+        max-height: 98%;
+        background-color: #1f1f1f;
+    }
+
+    /* ••••••••• Part 1 ••••••••• */
+    #main-section img {
+        border-radius: 50%;
+        width: 35%;
+        margin: 2px auto 20px;
+    }
+
+    #main-section h1 {
+        margin: 12px 0;
+        font-size: 28px;
+    }
+
+    #main-section h4 {
+        color: #defc82;
+        margin-bottom: 20px;
+    }
+
+    #main-section p {
+        margin: 10px;
+        margin-bottom: 20px;
+        color: rgb(216, 216, 216);
+    }
+
+    /* ••••••••• Part 2 ••••••••• */
+    button {
+        background-color: #333333;
+        color: rgb(242, 242, 242);
+        border: none;
+        width: 100%;
+        height: 50px;
+        margin: 8px 0;
+        border-radius: 10px;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
