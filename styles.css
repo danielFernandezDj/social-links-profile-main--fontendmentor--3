@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+h1, h4, p {
+    font-family: "Inter", sans-serif;
+}
+
 
 /* %%%%%%%%%%%% Big Screen %%%%%%%%%%%% */
 @media  (min-width: 600px) {
@@ -122,6 +126,7 @@
     }
 
     #main-section p {
+        font-size: 14px;
         margin: 10px;
         margin-bottom: 20px;
         color: rgb(216, 216, 216);
