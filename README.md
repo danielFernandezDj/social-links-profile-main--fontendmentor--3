@@ -22,8 +22,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ![](./design/desktop-preview.jpg)
 
 ### Links
-
-- Solution URL: [ https://github.com/danielFernandezDj/social-links-profile-main--fontendmentor--3.gitsemantic-html5-marhttps://github.com/danielFernandezDj/social-links-profile-main--fontendmentor--3.git ]
 - Live Site URL: [ https://danielfernandezdj.github.io/social-links-profile-main--fontendmentor--3/ ]
 
 ## My process
